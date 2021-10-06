@@ -4,3 +4,4 @@ end
 
 neofetch
 alias cfggit '/usr/bin/git --git-dir=$HOME/.cfggit --work-tree=$HOME'
+set -gx VIRTUAL_ENV_DISABLE_PROMPT 1

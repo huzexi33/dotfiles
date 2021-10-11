@@ -11,3 +11,6 @@ set -gx VIRTUAL_ENV_DISABLE_PROMPT 1
 eval /usr/local/anaconda3/bin/conda "shell.fish" "hook" $argv | source
 # <<< conda initialize <<<
 
+set -g theme_powreline_fonts yes
+set -g theme_nerd_fonts no
+set -g theme_color_scheme solarized-light
